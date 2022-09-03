@@ -45,10 +45,11 @@ void PrintArr(int[] b)
     int i = 0;
     int len = b.Length;
     Console.Write("[");
-    for (i = 0; i < len; i++)
+    for (i = 0; i < len-1; i++)
     {
         Console.Write($" {b[i]},");
     }
+    Console.Write ($" {b[b.Length - 1]}");
     Console.Write("]");
 }
 GetArray(a);
