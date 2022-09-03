@@ -47,9 +47,9 @@ void PrintArr(int[] b)
     Console.Write("[");
     for (i = 0; i < len-1; i++)
     {
-        Console.Write($" {b[i]},");
+        Console.Write($"{b[i]}, ");
     }
-    Console.Write ($" {b[b.Length - 1]}");
+    Console.Write ($"{b[b.Length - 1]}");
     Console.Write("]");
 }
 GetArray(a);
